@@ -3,6 +3,8 @@ server:
 spring: 
   application:  
     name: tensquare-user #指定服务名
+  rabbitmq:
+    host: 47.96.141.125
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://47.96.141.125:3306/tensquare_user?characterEncoding=UTF8

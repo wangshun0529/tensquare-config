@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare-manager #指定服务名
+  rabbitmq:
+    host: 47.96.141.125
 eureka:
   client:
     serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
