@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: eureka
+  rabbitmq:
+    host: 47.96.141.125
 eureka:
   client:
     #是否将自己注册到Eureka服务中，本身就是所有无需注册
