@@ -11,6 +11,8 @@ spring:
   jpa:
     database: MySQL
     show-sql: true
+  rabbitmq:
+    host: 47.96.141.125
 jwt:
   config:
     key: tensquare
